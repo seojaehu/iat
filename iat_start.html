@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/iat/js/iat_common.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/iat/css/iat_manifest.json">
+<link type="text/css" rel="stylesheet" href="/iat/css/IAT.css" />
+</head>
+
+<body>
+	<form name="user_info" method="post" Action="iat_start1.html">
+		<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+		    <a href="#">About</a>
+		    <a href="#">Services</a>
+		    <a href="#">Clients</a>
+		    <a href="#">Contact</a>
+		  </div>
+		</div>
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 메뉴</span>
+		<div id="container">
+			<div id="block">
+				<ul>
+					<li>지금부터 다음의 세 과제들을 수행해야 합니다.</li>
+					<li>먼저, 두 종류의 질문지를 작성하고, 단어 및 사진을 분류하는 검사를 수행합니다.</li>
+					<li>이 검사들은 10분 이내에 완수하여야 합니다.</li>
+				</ul>
+			</div>
+			<div id="b_button">
+				<button type="submit" id="button1" onclick="openFullscreen();">다음</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
